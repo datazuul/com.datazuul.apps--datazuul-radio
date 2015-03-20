@@ -1,0 +1,9 @@
+Package: [[artifactId]]
+Version: [[version]]
+Section: misc
+Priority: optional
+Architecture: all
+Depends: java6-runtime, java-wrappers
+Maintainer: Ralf Eichinger <ralf.eichinger@pixotec.de>
+Description: JRadio - Listen to your favorite radio stations!
+Distribution: development
