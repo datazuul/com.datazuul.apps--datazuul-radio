@@ -5,7 +5,7 @@
 	<groupId>com.datazuul.apps</groupId>
 	<artifactId>datazuul-radio</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>com.datazuul.apps--datazuul-radio</name>
+	<name>datazuul.com - DataZuul Applications: Radio</name>
 	<description>Listen to your favorite radio stations!</description>
 
 	<repositories>
