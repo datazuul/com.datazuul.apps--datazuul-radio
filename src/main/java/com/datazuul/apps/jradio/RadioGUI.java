@@ -67,15 +67,15 @@ public class RadioGUI extends JFrame {
 			e1.printStackTrace();
 		}
 		if (keys.length == 0) {
-			prefs.put("Bayern 1",
-					"http://gffstream.ic.llnwd.net/stream/gffstream_w10b");
-			prefs.put("Bayern 2",
-					"http://gffstream.ic.llnwd.net/stream/gffstream_w11b");
+			prefs.put("Bayern 1 (Niederbayern / Oberpfalz)",
+					"https://dispatcher.rndfnk.com/br/br1/nbopf/mp3/mid");
+			prefs.put("Bayern 2 (Süd)",
+					"https://dispatcher.rndfnk.com/br/br2/sued/mp3/mid");
 			prefs.put("Bayern 3",
-					"http://gffstream.ic.llnwd.net/stream/gffstream_w12b");
-			prefs.put("Hardradio.com", "http://66.90.91.59:80/hardradio.mp3");
-			prefs.put("Radio Gothic",
-					"http://ice-03.lagardere.cz:80/web-gothic-128");
+					"https://dispatcher.rndfnk.com/br/br3/live/mp3/mid");
+			prefs.put("Hardradio.com", "http://144.217.29.205:80/");
+			prefs.put("Schattenreich",
+					"http://stream.laut.fm/schattenreich");
 			try {
 				prefs.flush();
 			} catch (BackingStoreException e) {
